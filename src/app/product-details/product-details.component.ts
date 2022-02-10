@@ -11,7 +11,7 @@ import { Product, products } from '../products';
 
 export class ProductDetailsComponent implements OnInit {
 
-  product: Product | undefined;  // This is a field.
+  product: Product | undefined;
 
   constructor(private route: ActivatedRoute) { }
 
